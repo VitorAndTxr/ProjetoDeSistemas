@@ -9,20 +9,19 @@ const LoginPage = (): JSX.Element => {
         <div>
             <Header>
               <header>
-                <img src="{logo}"/>
               </header>
             </Header>
             <Main>
                 <main>
-                <p>
-                Tenha acesso a grandes ofertas!! Faça login ou cadastre-se para receber nossas ofertas e promoções!!
-                </p>
-                <button>
-                    Cadastre-se
-                </button>
-                <button>
-                    Login
-                </button>
+                    <p>
+                    Tenha acesso a grandes ofertas!! Faça login ou cadastre-se para receber nossas ofertas e promoções!!
+                    </p>
+                    <button>
+                        Cadastre-se
+                    </button>
+                    <button>
+                        Login
+                    </button>
                 </main>
             </Main>
             <Footer>
@@ -51,8 +50,8 @@ const Main = styled(Container)`
         background-color:#484848;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        aling-itens: center;
+        aling-items: center;
+        justify-content: space-around;
     }
     p{
         color: white;
@@ -73,7 +72,6 @@ const Footer = styled(Container)`
 
     footer{
         background-color: yellow;
-        font-color: white;
         font-size: 16px;
     }
     
