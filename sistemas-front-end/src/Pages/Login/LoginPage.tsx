@@ -9,19 +9,26 @@ const LoginPage = (): JSX.Element => {
         <div>
             <Header>
               <header>
+                
               </header>
             </Header>
             <Main>
                 <main>
                     <p>
-                    Tenha acesso a grandes ofertas!! Faça login ou cadastre-se para receber nossas ofertas e promoções!!
+                        Tenha acesso a grandes ofertas!! Faça login ou cadastre-se para receber nossas ofertas e promoções!!
                     </p>
-                    <button>
-                        Cadastre-se
-                    </button>
-                    <button>
-                        Login
-                    </button>
+                       <div>
+                            <button>
+                                Cadastre-se
+                            </button>
+                            <button>
+                                Login
+                            </button>
+                        </div>
+                        <div>
+                        <div></div>
+                        <div></div>
+                        </div>
                 </main>
             </Main>
             <Footer>
@@ -50,13 +57,18 @@ const Main = styled(Container)`
         background-color:#484848;
         display: flex;
         flex-direction: column;
-        aling-items: center;
-        justify-content: space-around;
+        flex-wrap: wrap;
     }
     p{
         color: white;
         font-size: 64px;
         font-family: Sans Serif;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-aling: center;
     }
     button{
         background-color:#C4C4C4;
@@ -65,6 +77,8 @@ const Main = styled(Container)`
         font-family: Droid Sans;
         font-size: 36px;
         text-aling: center;
+        margin: 10px;
+        margin-left: 500px;
     }
 
 `
@@ -75,7 +89,6 @@ const Footer = styled(Container)`
         font-size: 16px;
     }
     
-
 `
 
 

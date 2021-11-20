@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 
-const LoginPage = (): JSX.Element => {
+const MenuPage = (): JSX.Element => {
     return(
         <div>
             <Header>
@@ -35,7 +35,7 @@ const LoginPage = (): JSX.Element => {
     )
 }
 
-export default LoginPage;
+export default MenuPage;
 
 const Header = styled(Container)`
 
@@ -76,4 +76,4 @@ const Footer = styled(Container)`
     }
     
 
-`  
+`
