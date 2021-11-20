@@ -13,21 +13,28 @@ const PayPage = (): JSX.Element => {
             </Header>
             <Main>
                 <main>
-                    <p>
-                    Tenha acesso a grandes ofertas!! Faça login ou cadastre-se para receber nossas ofertas e promoções!!
-                    </p>
-                    <button>
-                        Cadastre-se
-                    </button>
-                    <button>
-                        Login
-                    </button>
+                    <div>
+                        <form>
+                        <label>Cartão</label>
+                        <input  type="text" name="CPF" placeholder="CPF do titular" />
+                        <input  type="text" name="name" placeholder="Nome completo" />
+                        <input  type="text" name="numero-cartao" placeholder="Número do cartão" />
+                        <input  type="date"/>
+                        <input  type="text" name="codigo" placeholder="CCV" />
+                        </form>
+                    </div>
+                    <div>
+                        <form>
+                        <label>Boleto</label>
+                        <input  type="text" name="CPF" placeholder="CPF do titular" />
+                        </form>
+                    </div>
                 </main>
             </Main>
             <Footer>
                 <footer>
                     <p>
-                        &copy; Todos os direitos reservados.
+                    Desenvolvido por NoraNa &copy; Todos os direitos reservados.
                     </p>
                 </footer>
             </Footer>
@@ -71,9 +78,9 @@ const Main = styled(Container)`
 const Footer = styled(Container)`
 
     footer{
-        background-color: yellow;
+        background-color: #C4C4C4;
+        color: black;
         font-size: 16px;
+        padding: 10px;
     }
-    
-
-`
+    `
