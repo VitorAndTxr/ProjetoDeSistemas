@@ -22,13 +22,13 @@ const PayPage = (): JSX.Element => {
                         <input  type="date"/>
                         <input  type="text" name="codigo" placeholder="CCV" />
                         </form>
-                    </div>
-                    <div>
+                        <h1>Qual método de pagamento?</h1>
                         <form>
                         <label>Boleto</label>
                         <input  type="text" name="CPF" placeholder="CPF do titular" />
                         </form>
                     </div>
+                    <input  type="submit" placeholder="Confirmar" />
                 </main>
             </Main>
             <Footer>
