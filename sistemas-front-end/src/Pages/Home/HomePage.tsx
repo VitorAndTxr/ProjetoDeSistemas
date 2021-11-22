@@ -92,7 +92,7 @@ export default HomePage;
 const Header = styled(Container)`
 
     header{
-        background-color: yellow;
+        background-color: #FCDC34;
     }
     .cabecalho-home{
         display: flex;
