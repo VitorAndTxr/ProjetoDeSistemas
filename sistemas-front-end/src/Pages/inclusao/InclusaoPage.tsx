@@ -51,7 +51,7 @@ const InclusaoPage = (): JSX.Element => {
             <Footer>
                 <footer>
                     <p>
-                        &copy; Todos os direitos reservados.
+                       Desenvolvido por NoraNa &copy; Todos os direitos reservados.
                     </p>
                 </footer>
             </Footer>
@@ -81,6 +81,7 @@ main{
     font-size:24px;
     height: 644px;
     margin: 40px;
+    margin-top: 80px;
     text-align: justify;
 }
 .menu li{
@@ -96,6 +97,7 @@ main{
 section{
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .button{
     background-color: black;
@@ -108,17 +110,37 @@ section{
 .inclusao{
     display: flex;
     flex-direction: row;
-    height: 702px;
-    width:694px;
+    height: 570px;
+    width:600px;
     background-color: #C4C4C4;
+    margin-top: 64px;
+    justify-content: space-around;
+    margin-left: 250px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin-left: 50px;
 }
 `
 const Footer = styled(Container)`
 
-    footer{
-        background-color: yellow;
-        font-size: 16px;
-    }
+footer{
+    background-color: #C4C4C4;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
     
 
 `  
