@@ -13,12 +13,13 @@ const MenuPage = (): JSX.Element => {
             </Header>
             <Main>
                 <main>
+                    birule birule birule
                 </main>
             </Main>
             <Footer>
                 <footer>
                     <p>
-                        &copy; Todos os direitos reservados.
+                       Desenvolvido por NoraNa &copy; Todos os direitos reservados.
                     </p>
                 </footer>
             </Footer>

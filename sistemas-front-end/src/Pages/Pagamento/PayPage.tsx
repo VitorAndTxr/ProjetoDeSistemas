@@ -8,17 +8,7 @@ const PayPage = (): JSX.Element => {
     return(
         <div>
             <Header>
-            <header>
-                <img src="{logo}"/>
-                <div className="cabecalho-home">
-                    <section>
-                            <input className="caixa-home" type="text" placeholder="&#128269;Qual veículo você está procurando?" />
-                    </section>
-                    <section>
-                            <div className="caixa-home">Login</div>
-                            <div className="caixa-home">Cadastre-se</div>
-                    </section>
-                </div>
+              <header>
               </header>
             </Header>
             <Main>
@@ -58,28 +48,9 @@ export default PayPage;
 
 const Header = styled(Container)`
 
-header{
-    background-color: #FCDC34;
-}
-.cabecalho-home{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-.caixa-home{
-    background-color: #C4C4C4;
-    width:311px;
-    height: 25px;
-    font-size:black;
-    margin: 23px;
-
-}
-input{
-    background-color: #C4C4C4;
-    width:311px;
-    height: 35px;
-    font-size:black;
-}
+    header{
+        background-color: yellow;
+    }
 
 `
 const Main = styled(Container)`

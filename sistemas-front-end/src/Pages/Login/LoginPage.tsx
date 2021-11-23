@@ -34,7 +34,7 @@ const LoginPage = (): JSX.Element => {
             <Footer>
                 <footer>
                     <p>
-                        &copy; Todos os direitos reservados.
+                       Desenvolvido por NoraNa &copy; Todos os direitos reservados.
                     </p>
                 </footer>
             </Footer>
@@ -84,10 +84,12 @@ const Main = styled(Container)`
 `
 const Footer = styled(Container)`
 
-    footer{
-        background-color: yellow;
-        font-size: 16px;
-    }
+footer{
+    background-color: #C4C4C4;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
     
 `
 

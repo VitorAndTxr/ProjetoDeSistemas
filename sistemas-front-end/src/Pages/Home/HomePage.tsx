@@ -10,7 +10,6 @@ const HomePage = (): JSX.Element => {
         <div>
             <Header>
               <header>
-                <img src="{logo}"/>
                 <div className="cabecalho-home">
                     <section>
                             <input className="caixa-home" type="text" placeholder="&#128269;Qual veículo você está procurando?" />
