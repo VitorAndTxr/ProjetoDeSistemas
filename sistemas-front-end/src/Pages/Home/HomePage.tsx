@@ -31,7 +31,11 @@ const HomePage = (): JSX.Element => {
                             <a><li>Chefrolet</li></a>
                             <a><li>Peugeot</li></a>
                             <li><p>Veículos populares:</p></li>
-                            <a><li>Gol 2020</li></a>
+                            <a>
+                                <li>
+                                    Gol 2020
+                                </li>
+                            </a>
                             <a><li>Strada</li></a>
                             <a><li>Onix</li></a>
                             <a><li>Peugeot 308</li></a>
@@ -56,7 +60,7 @@ const HomePage = (): JSX.Element => {
                                 <li><p>Gol 2020</p></li>
                             </ul></a>
                             <a><ul>
-                                <li></li>
+                                <li><img src={"img/carros/gol-img.svg"}/></li>
                                 <li><p>Gol 2019</p></li>
                             </ul></a>
                             <a><ul>

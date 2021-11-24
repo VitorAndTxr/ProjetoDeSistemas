@@ -47,11 +47,9 @@ const PayPage = (): JSX.Element => {
 export default PayPage;
 
 const Header = styled(Container)`
-
     header{
         background-color: yellow;
     }
-
 `
 const Main = styled(Container)`
 main{
@@ -99,12 +97,9 @@ h1{
     margin-bottom: 41px;
 }
 `
-const Footer = styled(Container)`
-
-    footer{
-        background-color: #C4C4C4;
-        color: black;
-        font-size: 16px;
-        padding: 10px;
-    }
-    `
+const Footer = styled.footer`
+    background-color: #C4C4C4;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+`
